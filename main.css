@@ -1,0 +1,139 @@
+body {
+	background-color: #f8f8ff;
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+}
+
+div#header {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	height: 40px;
+	text-align: left;
+	padding: 4px;
+	padding-left: 32px;
+	background-color: #d2b48c;
+	color: white;
+}
+
+h3#title {
+}
+
+div#content_left {
+	width: 60%;
+	float: left;
+}
+
+div#content_right {
+	width: 36%;
+	float: right;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	background: #fafafa;
+	padding: 4px;
+	margin-right: 20px;
+}
+
+div#main {
+	text-align: left;
+	float: right;
+	width: 90%;
+}
+
+div.iframeWrap {
+	position: relative;
+	width: 100%;
+}
+div.iframeWrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+div#form_vid {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	background: #fafafa;
+	padding: 8px;
+	margin-top: 10px;
+}
+
+p#kome {
+	font-size: 5px;
+}
+
+div#chat_console {
+	margin-top: 5px;
+	text-align: left;
+	width: 90%;
+	height: 600px;
+	overflow-y: scroll;
+	border-style: double;
+	border-width: thick;
+	border-color: #cccccc;
+	padding-left: 5px;
+	background: white;
+}
+
+ul#board {
+	margin-left: 0px;
+	font-size: 8px;
+	text-align: left;
+}
+
+.button {
+	background: #b22222;
+	border-style: solid;
+	border-width: thick;
+	border-color: #b22222;
+	width: 100px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin: 0px;
+	color: #ffffff;
+	border-radius: 5%;
+	cursor: pointer;
+	-webkit-translation: all 0.2s;
+	-moz-translation: all 0.2s;
+	-ms-translation: all 0.2s;
+	-o-translation: all 0.2s;
+	translation: all 0.2s;
+}
+
+.button:active {
+	background: white;
+	color: #b22222;
+}
+
+.buttonSend {
+	background: #8fbc8f;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #8fbc8f;
+	width: 50px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	margin: 0px;
+	color: #ffffff;
+	border-radius: 5%;
+	cursor: pointer;
+	font-size: 10px;
+	-webkit-translation: all 0.2s;
+	-moz-translation: all 0.2s;
+	-ms-translation: all 0.2s;
+	-o-translation: all 0.2s;
+	translation: all 0.2s;
+}
+
+.buttonSend:active {
+	background: white;
+	color: #8fbc8f;
+}
+

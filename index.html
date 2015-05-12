@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>MilcoTube</title>
+	<script src='https://cdn.mlkcca.com/v2.0.0/milkcocoa.js'></script>
+	<script src="youtube_controller.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css" media="all">
+</head>
+<body>
+	<div id="header">
+		<h3 id="title">MilcoTube(ProtoType α) ~ Milkcocoa × Youtube ~</h3>
+	</div>
+	<div id="content_left">
+		<div id="main">
+			<div class="iframeWrap" style="padding-top: 56.25%;">
+				<div id="player"></div>
+			</div>
+			<div id="form_vid">
+				<p>Youtubeの動画ID(※)を入力してコミットすると動画が差し代わります。</p>
+				<p id="kome">※"https://www.youtube.com/watch?v=XXXXXXXX"の"XXXXXXXX"部分</p>
+				<p><input type="text" id="v_id" size="20"></p>
+				<p class="button" onClick="clickCommit()">コミット</p>
+			</div>
+			<div>
+				<p>チャンネルとか切り替えられたらいいなぁ（未実装）</p>
+			</div>
+		</div>
+	</div>
+	<div id="content_right">
+		<p>name: <input type="text" id="nm" size="24" value="名無しさん＠みるこ中"></p>
+		<p>msg:　<input type="text" id="msg" size="64" value=""></p>
+		<p class="buttonSend" onClick="clickSend()">送信</p>
+		<div id="chat_console">
+			<ul id="board"></ul>
+		</div>
+	</div>
+</body>
+</html>
